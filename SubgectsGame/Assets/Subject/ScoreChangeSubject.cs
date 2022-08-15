@@ -1,16 +1,9 @@
 using UnityEngine;
-public class SubjectBaseImpl : SubjectBase
-{
-}
-
-
-
-
-public class ScoreChangePickUp : PickUpBase
+public class ScoreChangeSubject : SubjectBase
 {
     #region Variables
 
-    [Header(nameof(ScoreChangePickUp))]
+    [Header(nameof(ScoreChangeSubject))]
     [SerializeField] private int _score;
 
     #endregion
@@ -25,3 +18,4 @@ public class ScoreChangePickUp : PickUpBase
 
     #endregion
 }
+
